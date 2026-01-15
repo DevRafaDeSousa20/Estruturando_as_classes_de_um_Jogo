@@ -9,13 +9,13 @@ class Heroi {
     let ataque
 
     if (this.tipo === 'mago') {
-      ataque = 'usou magia'
+      ataque = 'magia'
     } else if (this.tipo === 'guerreiro') {
-      ataque = 'usou espada'
+      ataque = 'espada'
     } else if (this.tipo === 'monge') {
-      ataque = 'usou artes marciais'
+      ataque = 'artes marciais'
     } else if (this.tipo === 'ninja') {
-      ataque = 'usou shuriken'
+      ataque = 'shuriken'
     }
 
     console.log(`o ${this.tipo} atacou usando ${ataque}`)
